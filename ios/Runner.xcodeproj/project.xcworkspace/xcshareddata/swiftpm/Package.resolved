@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "erxes-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/erxes/erxes-ios-sdk.git",
+      "state" : {
+        "revision" : "b04ec39009c8d0292760fd0d478895c6141c9220",
+        "version" : "0.30.13"
+      }
+    }
+  ],
+  "version" : 2
+}
