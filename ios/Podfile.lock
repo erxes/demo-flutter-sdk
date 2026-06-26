@@ -1,14 +1,27 @@
 PODS:
+  - erxes_flutter_sdk (0.3.0):
+    - ErxesMessengerSDK (= 0.30.14)
+    - Flutter
+  - ErxesMessengerSDK (0.30.14)
   - Flutter (1.0.0)
 
 DEPENDENCIES:
+  - erxes_flutter_sdk (from `.symlinks/plugins/erxes_flutter_sdk/ios`)
   - Flutter (from `Flutter`)
 
+SPEC REPOS:
+  trunk:
+    - ErxesMessengerSDK
+
 EXTERNAL SOURCES:
+  erxes_flutter_sdk:
+    :path: ".symlinks/plugins/erxes_flutter_sdk/ios"
   Flutter:
     :path: Flutter
 
 SPEC CHECKSUMS:
+  erxes_flutter_sdk: 62c5ae5b5a1a53e146b24e34717b5e79dfbdd9bb
+  ErxesMessengerSDK: 3841b99c7436ac3603e995365e4e94030e018c2e
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
 
 PODFILE CHECKSUM: c33547b5e67c8a5abb96ddd422c079a083f25f0d

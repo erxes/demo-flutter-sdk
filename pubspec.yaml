@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
 
   # Erxes Flutter messenger SDK (https://pub.dev/packages/erxes_flutter_sdk)
-  erxes_flutter_sdk: 0.2.0
+  erxes_flutter_sdk: 0.3.0
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +54,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  # The erxes native iOS SDK (rn-erxes-sdk) is distributed via CocoaPods, so
+  # this project must keep its CocoaPods integration. Opt out of Swift Package
+  # Manager to stop Flutter from suggesting an SPM migration.
+  config:
+    enable-swift-package-manager: false
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

@@ -53,10 +53,10 @@ packages:
     dependency: "direct main"
     description:
       name: erxes_flutter_sdk
-      sha256: "9506f8d52b6493b6ad9c570388b9ec26d338d1de023ec34a9960a3c5f1fb61bc"
+      sha256: "0e813b0fa9af6b8c5e410276be62806ddb9fd054df2c53dafa0e4a441e0c5e73"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.0"
+    version: "0.3.0"
   fake_async:
     dependency: transitive
     description:
